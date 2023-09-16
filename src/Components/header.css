@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 780px) {
+  .header {
+    font-size: 18px;
+  }
+}

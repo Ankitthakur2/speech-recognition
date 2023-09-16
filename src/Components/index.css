@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.word-section {
+  color: red;
+  background-color: antiquewhite;
+  height: 70vh;
+  margin: 2rem 4rem;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 0.3rem 0.5rem;
+  border-radius: 1%;
+}
+
+.button-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.btn {
+  margin-right: 1rem;
+  background-color: skyblue;
+  padding: 0.3rem 0.5rem;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  border: white solid 2px;
+  font-weight: 600;
+  border-radius: 4%;
+}
+
+@media screen and (max-width: 780px) {
+  .button-section {
+    height: 9vh;
+  }
+
+  .word-section {
+    margin: 1rem 2rem;
+  }
+}
+
+.copied {
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
